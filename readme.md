@@ -57,12 +57,12 @@ Use the following functions for logging:
 
 ### Log an Information Message
 ```javascript
-printLog.info("INFO LOGGED!");
+loggerPrint.info("INFO LOGGED!");
 ```
 
 ### Log an Error Message
 ```javascript
-printLog.error("LOGGED ERROR!");
+loggerPrint.error("LOGGED ERROR!");
 ```
 
 ---
@@ -89,7 +89,7 @@ printLog.error("LOGGED ERROR!");
    - `/make-error-logs-empty`
 
 5. **Test the Functionality**
-   Use the `printLog` functions (`printLog.info` and `printLog.error`) to log messages and verify the setup.
+   Use the `loggerPrint` functions (`loggerPrint.info` and `loggerPrint.error`) to log messages and verify the setup.
 
 ---
 

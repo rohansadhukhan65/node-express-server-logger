@@ -13,15 +13,15 @@
     * app.get("/make-error-logs-empty", makeErrorFileEmptyController)
 
     //* Functions to use logger .
-    * printLog.info("INFO LOGGED !")
-    * printLog.error("LOGGED ERROR !")
+    * loggerPrint.info("INFO LOGGED !")
+    * loggerPrint.error("LOGGED ERROR !")
     
     //* STEPS
     1. Create logs folder . 
     2. install winston .
     3. place customLogger.js file in your project .
     4. create log access and make logs empty routes .
-    5. use printLog function to test the functionality .
+    5. use loggerPrint function to test the functionality .
 */
 
 // ComonJs-module-import .....
@@ -143,7 +143,7 @@ const makeErrorFileEmptyController = async (req, res) => {
 
 // comonJs module export ......
 // module.exports = {
-//     printLog: logger,
+//     loggerPrint: logger,
 //     serveCombinedLogController,
 //     serveErrorLogController,
 //     makeCombinedFileEmptyController,
